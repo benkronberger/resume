@@ -1,0 +1,138 @@
+
+
+h1, h2, h3, h4, p, li {
+	font-family: fira-sans, sans-serif;
+}
+
+.grid2 {
+	padding: 1%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-column-gap: 0;
+	grid-row-gap: 20px;
+}
+
+.grid2 > div {
+	padding: 10px;
+}
+
+.grid_item {
+	border: 1px black solid;
+	border-radius: 10px;
+}
+h1 {
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+#title > h2 {
+		font-size: 20px;
+}
+
+#title {
+		line-height: 15px;
+}
+.grid2 > div > h2 {
+		font-size: 30px;
+		margin-top: 0px;
+}
+
+@media only screen and (min-width: 640px){
+	.grid2 {
+		grid-template-columns: 47.5% 47.5%;
+		grid-column-gap: 5%;
+		grid-row-gap: 40px;
+	}
+	.grid2 > div {
+		padding: 15px;
+	}
+	.big {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	.skillz {
+		grid-column-start: 1;
+		grid-column-end: span 2;
+	}
+	h1 {
+	font-size: 50px;
+	margin-top: 20px;
+	}
+
+	#title > h2 {
+		font-size: 30px;
+	}	
+
+	#title {
+		line-height: 15px;
+	}
+	
+	.grid2 > div > h2 {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (min-width: 981px){
+	.grid2 {
+		grid-template-columns: 30% 30% 30%;
+		grid-row-gap: 30px;
+	}
+	.grid2 > div {
+		padding: 20px;
+	}
+	
+	.big {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	
+	.skillz {
+		grid-column-start: 3;
+		grid-column-end: span 1;
+	}
+	
+	h1 {
+		font-size: 60px;
+		margin-top: 20px;
+	}
+
+	#title > h2 {
+		font-size: 30px;
+	}
+
+	#title {
+		line-height: 15px;
+	}
+	
+	.grid2 > div > h2 {
+		font-size: 40px;
+		margin-top: 0px;
+	}
+	.grid2 > div > h3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
